@@ -38,7 +38,7 @@ int main()
 
     while(x != mNodes)
     {
-        // Updating distances
+        // Updating distances.
         for(int i=0; i<mNodes ; i++)
         {
             if(Graph[r][i] !=0 && Visited[i] != 1 && Distance[r]+Graph[r][i] < Distance[i])
