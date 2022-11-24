@@ -23,7 +23,7 @@ int main()
     cin >> SourceNode;
 
     int Visited[mNodes] ;  // Array to keep track of visited nodes
-    int Distance[mNodes] ; // Array which has distances to all nodes from source node
+    int Distance[mNodes] ; 
 
     for(int i=0; i< mNodes; i++)   // Initializing visited and distance array
     {
