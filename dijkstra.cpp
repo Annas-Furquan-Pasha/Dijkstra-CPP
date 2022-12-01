@@ -28,7 +28,7 @@ int main()
     for(int i=0; i< mNodes; i++)   // Initializing visited and distance array
     {
         Visited[i] = 0;
-        Distance[i] = 999999;
+        Distance[i] = INT_MAX;
     }
 
     int r = SourceNode;  // Temporary source node
@@ -46,7 +46,7 @@ int main()
         }
         
         // Finding least distance
-        int leastNo = 99999;
+        int leastNo = INT_MAX;
         r = 0;
         for(int i=0; i<mNodes; i++)
         {
