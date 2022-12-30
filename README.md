@@ -1,4 +1,4 @@
 # Dijkstra-CPP
-It is a dijkstra algorithm in C++
+it is a dijkstra algorithm in c++
 
-It is a Dijstra Algorithm to find single source shortest path in C++
+it is a Dijstra Algorithm to find single source shortest path in c++
